@@ -1,5 +1,4 @@
 import streamlit as st
-import pyttsx3
 import speech_recognition as sr
 
 engine = pyttsx3.init()
@@ -31,4 +30,5 @@ if st.button("🎙 Speak"):
             else:
                 talk("Sorry I can't do that yet")
         except:
+
             st.error("Sorry, I didn't get that.")
