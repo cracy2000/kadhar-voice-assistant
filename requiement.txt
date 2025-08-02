@@ -1,8 +1,9 @@
 streamlit
-Speechrecognition
+SpeechRecognition
 pyttsx3
 pyaudio
 openai
 fuzzywuzzy
 python-Levenshtein
+
 
